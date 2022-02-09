@@ -4,7 +4,7 @@
 <p>use keys.json to configure your google api keys or download the json file in the google clound and replace</p>
 <p>user the .env file to configure Notion Internal Integration Token and the Sheet id</p>
 <p>the notion id variable is in notion.js file, inside the query function</p>
-<h3>Dependecies</h3>
+<h3>Dependencies</h3>
 <p>|Node.JS|</p>
 <p>|@notionhq/client|</p>
 <p>|dotenv|</p>
