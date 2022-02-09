@@ -1,0 +1,14 @@
+{
+  "name": "notion_connect_sheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.4.13",
+    "dotenv": "^16.0.0",
+    "googleapis": "^95.0.0"
+  }
+}
