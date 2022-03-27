@@ -10,7 +10,7 @@ const notion = new Client({ auth: process.env.NOTION_KEY });
 //Query a database
 const notionQuery = (async () => {
   
-  const databaseId = ''; //notion db id
+  const databaseId = 'Your database ID here'; //notion db id
   const response = await notion.databases.query({
     database_id: databaseId,
     filter:
@@ -22,6 +22,7 @@ const notionQuery = (async () => {
       }
     }
   });
+    console.log("Notion Query-----------------\n"+util.inspect(response.results[0].properties.Name.title[0].plain_text));
     const result = (response.results[0].properties.Name.title[0].plain_text)
     return result;  //result here is used to update the sheet
    
