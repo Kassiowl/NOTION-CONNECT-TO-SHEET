@@ -21,11 +21,11 @@ to install all dependencies
 2. in notion.js file, assign databaseId variable to your notion database id
 <img src="https://i.imgur.com/iBcMAZK.png" alt=".databaseID">
 
-3.create a service account and a key in google clound console
+3.create a service account and a key in google cloud console
 
 4.download and copy json file with key information, and paste inside 'keys.json
 
-5.in google clound console, active sheet api
+5.in google cloud console, active sheet api
 
 6. Edit notionQuery in Notion.js according to your query needs
 <img src="https://i.imgur.com/alezUtS.png" alt="notionQuery Example">
